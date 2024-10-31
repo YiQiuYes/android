@@ -13,6 +13,12 @@
            sync-j="4"
            revision="refs/heads/15.0" />
 
+  <remote name="yiqiu"
+        fetch="https://github.com/"
+        sync-c="true"
+        sync-j="4"
+        revision="refs/heads/15.0" />
+
   <!-- crDroid additions -->
   <project path="android" name="crdroidandroid/android" remote="crdroid" />
 
@@ -20,7 +26,7 @@
 
   <project path="bionic" name="crdroidandroid/android_bionic" groups="pdk" remote="crdroid" />
 
-  <project path="bootable/recovery" name="crdroidandroid/android_bootable_recovery" groups="pdk" remote="crdroid" />
+  <project path="bootable/recovery" name="YiQiuYes/android_bootable_recovery" groups="pdk" remote="yiqiu" />
 
   <project path="build/make" name="crdroidandroid/android_build" groups="pdk,sysui-studio" remote="crdroid" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -42,7 +48,7 @@
   <project path="external/jemalloc_new" name="crdroidandroid/android_external_jemalloc-new" groups="pdk" remote="crdroid" />
 
   <project path="frameworks/av" name="crdroidandroid/android_frameworks_av" groups="pdk" remote="crdroid" />
-  <project path="frameworks/base" name="crdroidandroid/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
+  <project path="frameworks/base" name="YiQiuYes/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="yiqiu" />
   <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="crdroid" />
   <project path="frameworks/native" name="crdroidandroid/android_frameworks_native" groups="pdk" remote="crdroid" />
   <project path="frameworks/opt/telephony" name="crdroidandroid/android_frameworks_opt_telephony" groups="pdk" remote="crdroid" />
@@ -55,11 +61,11 @@
 
   <project path="packages/apps/Backgrounds" name="crdroidandroid/android_packages_apps_Backgrounds" remote="crdroid" />
   <project path="packages/apps/Contacts" name="crdroidandroid/android_packages_apps_Contacts" groups="pdk-fs" remote="crdroid" />
-  <project path="packages/apps/crDroidSettings" name="crdroidandroid/android_packages_apps_crDroidSettings" remote="crdroid" />
+  <project path="packages/apps/crDroidSettings" name="YiQiuYes/android_packages_apps_crDroidSettings" remote="yiqiu" />
   <project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" groups="pdk-fs" remote="crdroid" />
   <project path="packages/apps/DocumentsUI" name="crdroidandroid/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="crdroid" />
   <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" remote="crdroid-gitlab" />
-  <project path="packages/apps/GameSpace" name="crdroidandroid/android_packages_apps_GameSpace" remote="crdroid" />
+  <project path="packages/apps/GameSpace" name="YiQiuYes/android_packages_apps_GameSpace" remote="yiqiu" />
   <project path="packages/apps/Launcher3" name="crdroidandroid/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="crdroid" />
   <project path="packages/apps/LineageParts" name="crdroidandroid/android_packages_apps_LineageParts" remote="crdroid" />
   <project path="packages/apps/Matlog" name="crdroidandroid/android_packages_apps_Matlog" remote="crdroid" />
